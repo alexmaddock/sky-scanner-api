@@ -1,0 +1,36 @@
+{
+  "name": "sky-scanner-api",
+  "version": "1.0.0",
+  "description": "sky scanner api demo test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./spec/**.test.js",
+    "test-config": "jest ./spec/**.test.js --notify --config=./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmaddock/sky-scanner-api.git"
+  },
+  "author": "alex maddock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmaddock/sky-scanner-api/issues"
+  },
+  "homepage": "https://github.com/alexmaddock/sky-scanner-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
+  }
+}
