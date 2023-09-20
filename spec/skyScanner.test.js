@@ -1,9 +1,6 @@
-// import chai from 'chai';
 import { client } from '../http-client/client.js';
 import { skyScannerAPIV3 } from '../data/skyScannerData.js';
 import * as assertions from '../helpers/assertions.js';
-
-// let expect = chai.expect;
 
 let { baseUrl, skyScannerAPIHeader, skyScannerAPIBody } = skyScannerAPIV3;
 

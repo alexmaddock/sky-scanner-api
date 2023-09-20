@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1695199236995" clover="3.2.0">
-  <project timestamp="1695199236995" name="All files">
+<coverage generated="1695203322744" clover="3.2.0">
+  <project timestamp="1695203322744" name="All files">
     <metrics statements="43" coveredstatements="21" conditionals="22" coveredconditionals="5" methods="14" coveredmethods="4" elements="79" coveredelements="30" complexity="0" loc="43" ncloc="43" packages="3" files="3" classes="3"/>
     <package name="data">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -17,19 +17,19 @@
       <metrics statements="13" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <file name="assertions.js" path="/Users/alexmaddock/Projects/github_projects/sky-scanner-api/helpers/assertions.js">
         <metrics statements="13" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="1"/>
-        <line num="5" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="0" falsecount="2"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="0" falsecount="2"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
     <package name="http-client">

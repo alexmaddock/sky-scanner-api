@@ -1,7 +1,3 @@
-// import chai from 'chai';
-
-// let expect = chai.expect;
-
 export const assert200s = (response, responseStatus = 200, responseText = 'OK') => {
   expect(response.status).toEqual(responseStatus);
   expect(response.statusText).toEqual(responseText);
