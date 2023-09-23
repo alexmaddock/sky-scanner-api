@@ -1,3 +1,6 @@
+## Test Location
+Find the tests under spec file and base layer api in the client dir
+
 ## Description
 
 Basic api to test Skyscanners API V3.
@@ -19,3 +22,4 @@ Checkout project and run in terminal:
 ## To Run Test
 
 `npm run test`
+
