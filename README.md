@@ -1,5 +1,5 @@
 ## Test Location
-Find the tests under spec file and base layer api in the client dir
+Find the tests under [spec file](https://github.com/alexmaddock/sky-scanner-api/blob/main/spec/skyScanner.test.js) and base layer api in the [client dir](https://github.com/alexmaddock/sky-scanner-api/blob/main/http-client/client.js)
 
 ## Description
 
